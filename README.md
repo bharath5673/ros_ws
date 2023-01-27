@@ -60,12 +60,12 @@ pip install mediapipe
 
 <div align="center">
 <p>
-<img src="https://user-images.githubusercontent.com/33729709/215048866-4bd22c58-7012-43d0-ab7f-ece3d95a66a3.png" width="500"/> 
+<img src="https://user-images.githubusercontent.com/33729709/215048866-4bd22c58-7012-43d0-ab7f-ece3d95a66a3.png" width="400"/> 
 
 
 
 
-<img src="https://user-images.githubusercontent.com/33729709/215048966-6b6b2aaa-4785-43e6-9e5e-b10ef4b59ded.png" width="500"/> 
+<img src="https://user-images.githubusercontent.com/33729709/215048966-6b6b2aaa-4785-43e6-9e5e-b10ef4b59ded.png" width="400"/> 
 </p>
 <br>
 </div>
