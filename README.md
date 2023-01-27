@@ -25,7 +25,7 @@ ___
 ### steps for turtleot
 source ros_ws/install/setup.bash
 
-ros2 launch yolobot_gazebo yolobot_launch.py
+ros2 run turtlesim turtlesim_node & ros2 run my_robot_controller turtle_controller 
 
 ```
 
