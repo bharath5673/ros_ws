@@ -23,7 +23,7 @@ ___
 ```bash
 
 ### steps for turtleot
-source yolobot/install/setup.bash
+source ros_ws/install/setup.bash
 
 ros2 launch yolobot_gazebo yolobot_launch.py
 
