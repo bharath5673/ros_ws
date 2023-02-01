@@ -185,7 +185,7 @@ ros2 run self_driving_car_pkg computer_vision_node
 
 <div align="center">
 <p>
-<img src="https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV/raw/main/Images_videos/Sat_Nav/1_localization.gif" width="400"/>  <img src="https://user-images.githubusercontent.com/33729709/216042810-cdb48e39-8aa4-4201-b8be-b77b8c51d7d7.png" width="400"/> 
+<img src="https://user-images.githubusercontent.com/33729709/216042810-cdb48e39-8aa4-4201-b8be-b77b8c51d7d7.png" width="400"/>  <img src="https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV/raw/main/Images_videos/Sat_Nav/1_localization.gif" width="400"/> 
 </p>
 <br>
 </div>
