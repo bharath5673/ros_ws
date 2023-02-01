@@ -142,3 +142,53 @@ ros2 run test_yolov5 yolov5n_demo
 source ros_ws/install/setup.bash
 ros2 run test_yolov5 yolov5s_demo 
 ```
+
+
+___
+___
+### 5.  Self-Driving-Car  
+___
+
+```
+### steps for testing installation
+
+
+## install dependancies
+python3 -m pip install -r src/self_driving_car_pkg/requirements.txt
+
+
+
+## once build you can run the simulation e.g [ ros2 launch (package_name) world(launch file) ] 
+
+source ros_ws/install/setup.bash
+source /opt/ros/humble/setup.bash
+ros2 launch self_driving_car_pkg world_gazebo.launch.py
+
+
+## To activate the SelfDriving Car
+
+source ros_ws/install/setup.bash
+source /opt/ros/humble/setup.bash
+ros2 run self_driving_car_pkg computer_vision_node
+```
+
+````
+### steps to run Self-Driving-Car
+
+
+## Launch the maze_solving world in gazebo
+
+source ros_ws/install/setup.bash
+source /opt/ros/humble/setup.bash
+ros2 launch self_driving_car_pkg maze_solving_world.launch.py
+
+
+
+## in another terminal
+
+source ros_ws/install/setup.bash
+source /opt/ros/humble/setup.bash
+ros2 run self_driving_car_pkg sdc_V2
+
+
+````
