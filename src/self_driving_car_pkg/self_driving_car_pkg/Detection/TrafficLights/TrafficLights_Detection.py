@@ -413,7 +413,7 @@ class Cascade_Detector:
         print("Initialized Object of Cascade_Detector class")
 
     # Class Variables
-    TrafficLight_cascade_str = os.path.join(os.getcwd(), "src/self_driving_car_pkg/self_driving_car_pkg/data/TrafficLight_cascade.xml")
+    TrafficLight_cascade_str = os.path.join(os.getcwd(), "ros_ws/src/self_driving_car_pkg/self_driving_car_pkg/data/TrafficLight_cascade.xml")
 
     TrafficLight_cascade = cv2.CascadeClassifier()
     #-- 1. Load the cascades

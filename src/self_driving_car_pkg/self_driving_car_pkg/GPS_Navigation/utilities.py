@@ -24,7 +24,7 @@ def ret_largest_reg(mask):
 
 # [NEW]: function to display provided screen on a device
 def disp_on_mydev(screen,device="tablet"):
-    resource_dir = "src/self_driving_car_pkg/self_driving_car_pkg/GPS_Navigation/resource"
+    resource_dir = "ros_ws/src/self_driving_car_pkg/self_driving_car_pkg/GPS_Navigation/resource"
     device_path = os.path.join(resource_dir,device) + ".png"
     device_view = cv2.imread(device_path)
     device_hls = cv2.cvtColor(device_view, cv2.COLOR_BGR2HLS)

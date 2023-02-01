@@ -21,7 +21,7 @@ class Video_get(Node):
     ## Created a subscriber 
     self.subscriber = self.create_subscription(Image,'/camera/image_raw',self.process_data,10)
     ## setting for writing the frames into a video
-    self.out = cv2.VideoWriter('src/self_driving_car_pkg/output.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 30, (1280,720))
+    self.out = cv2.VideoWriter('ros_ws/src/self_driving_car_pkg/output.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 30, (1280,720))
     self.bridge = CvBridge() # converting ros images to opencv data
  
   def process_data(self, data): 
