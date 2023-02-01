@@ -1,5 +1,28 @@
 # ROS2 (As Ease As Possible)
 
+##### tested on
+```bash
+## ros distro
+abc@xyz:~$ rosversion -d
+humble
+
+## ubuntu version
+abc@xyz:~$ lsb_release -a
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 22.04.1 LTS
+Release:	22.04
+Codename:	jammy
+
+## python version
+abc@xyz:~$ python3 --version
+Python 3.10.6
+
+
+```
+___
+___
+
 ## my ros_ws
 ```bash
 
