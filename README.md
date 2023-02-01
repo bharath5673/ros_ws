@@ -149,6 +149,14 @@ ___
 ### 5.  Self-Driving-Car  
 ___
 
+<div align="center">
+<p>
+<img src="https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV/blob/main/Images_videos/the_car.gif" width="400"/>  <img src="https://user-images.githubusercontent.com/33729709/216042261-ceb356c6-3e07-49d7-817e-ec28a41ed811.png" width="400"/> 
+</p>
+<br>
+</div>
+
+
 ```
 ### steps for testing installation
 
@@ -172,6 +180,17 @@ source /opt/ros/humble/setup.bash
 ros2 run self_driving_car_pkg computer_vision_node
 ```
 
+
+
+
+<div align="center">
+<p>
+<img src="https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV/raw/main/Images_videos/Sat_Nav/1_localization.gif"/>  <img src="https://user-images.githubusercontent.com/33729709/216042810-cdb48e39-8aa4-4201-b8be-b77b8c51d7d7.png" width="400"/> 
+</p>
+<br>
+</div>
+
+
 ````
 ### steps to run Self-Driving-Car
 
@@ -192,3 +211,32 @@ ros2 run self_driving_car_pkg sdc_V2
 
 
 ````
+
+#### for training and more info @ https://github.com/bharath5673/ros_ws/blob/main/src/self_driving_car_pkg/self_driving_car_pkg/Guide_to_run_Sat-Nav_on_SDC.md
+
+#### for detailed explainations and tutorilas @ https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV
+
+
+
+___
+___
+
+
+## Cite
+
+<details><summary> <b>Expand</b> </summary>
+
+* [https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
+* [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5)
+* [https://github.com/TexasInstruments/edgeai-yolov5/tree/yolo-pose](https://github.com/TexasInstruments/edgeai-yolov5/tree/yolo-pose)
+* [https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV.git](https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV.git)
+* [https://github.com/google/mediapipe.git](https://github.com/google/mediapipe.git)
+* [https://github.com/ellenrapps/Road-to-Autonomous-Drone-Using-Raspberry-Pi-Pico.git](https://github.com/ellenrapps/Road-to-Autonomous-Drone-Using-Raspberry-Pi-Pico.git)
+* [https://github.com/ros2/ros2_documentation.git](https://github.com/ros2/ros2_documentation.git)
+* [https://github.com/raspberrypi](https://github.com/raspberrypi](https://github.com/raspberrypi)
+* [https://github.com/NVIDIA](https://github.com/NVIDIA)
+* [https://github.com/opencv/opencv](https://github.com/opencv/opencv)
+  
+  
+</details>
+
