@@ -236,8 +236,6 @@ ros2 run self_driving_car_pkg sdc_V2
 ````
 
 
-for model training and more info @ https://github.com/bharath5673/ros_ws/blob/main/src/self_driving_car_pkg/self_driving_car_pkg/Guide_to_run_Sat-Nav_on_SDC.md
-
 for detailed explainations and tutorilas @ https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV
 
 
