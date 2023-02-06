@@ -271,7 +271,7 @@ ros2 run turtlesim turtle_teleop_key
 ### open turtlebot
 
 source ros_ws/install/setup.bash
-ros2 run turtlesim turtlesim_node &
+ros2 run turtlesim turtlesim_node 
 
 
 ### steps to rosbag play 
