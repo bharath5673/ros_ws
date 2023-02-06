@@ -20,9 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "turtlebot_for_rosbag = test_turtle_bag.turtle_controller:main",
-            "turtlebot_rosbag_data_execute = test_turtle_bag.data_generator_executable:main"
-        
+            "turtlebot_for_rosbag = test_turtle_bag.turtle_controller:main"
         ],
     },
 )

@@ -7,13 +7,18 @@ rosbag2_bagfile_information:
     nanoseconds_since_epoch: 9223372036854775807
   message_count: 0
   topics_with_message_count:
-    []
+    - topic_metadata:
+        name: /turtle1/cmd_vel
+        type: geometry_msgs/msg/Twist
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 0
   compression_format: ""
   compression_mode: ""
   relative_file_paths:
-    - rosbag2_2023_02_06-17_28_08_0.db3
+    - rosbag2_2023_02_06-19_09_54_0.db3
   files:
-    - path: rosbag2_2023_02_06-17_28_08_0.db3
+    - path: rosbag2_2023_02_06-19_09_54_0.db3
       starting_time:
         nanoseconds_since_epoch: 9223372036854775807
       duration:
