@@ -2,3 +2,4 @@ build/*
 install/*
 log/*
 yolo*
+ros_ws/src/test_turtle_bag/test_turtle_bag/rosbag2_*
