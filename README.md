@@ -245,6 +245,42 @@ ___
 ### 7.  rosbag and dataFrame  
 ___
 
+![Screenshot from 2023-02-06 19-22-51](https://user-images.githubusercontent.com/33729709/216990025-51b69fb4-8097-4e61-9cda-b770822df93a.png)
+
+
+```bash
+
+### steps for rosbag turtle vel cmds
+
+source ros_ws/install/setup.bash
+ros2 run turtlesim turtlesim_node &  ros2 run test_turtle_bag turtlebot_for_rosbag 
+
+
+### steps to control turtlebot 
+
+source ros_ws/install/setup.bash
+ros2 run turtlesim turtle_teleop_key
+
+
+```
+#### saving bag file
+![Screenshot from 2023-02-06 19-21-34](https://user-images.githubusercontent.com/33729709/216990199-1db2606e-6979-496c-a690-8c4d1d4ea1eb.png)
+
+
+```
+### open turtlebot
+
+source ros_ws/install/setup.bash
+ros2 run turtlesim turtlesim_node &
+
+
+### steps to rosbag play 
+
+source ros_ws/install/setup.bash
+ros2 bag play 'ros_ws/src/test_turtle_bag/test_turtle_bag/rosbag2_2023_02_06-18_46_50/rosbag2_2023_02_06-18_46_50_0.db3' -d 0.5
+
+
+```
 
 
 
