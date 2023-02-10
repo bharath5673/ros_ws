@@ -341,9 +341,9 @@ source ros_ws/install/setup.bash
 python3 ros_ws/src/yolobot/yolobot_recognition/ros_recognition_yolo.py
 
  
-
 ```
 
+for detailed explainations and tutorilas @ https://www.youtube.com/watch?v=594Gmkdo-_s&t=610s
 ___
 ___
 
