@@ -338,7 +338,7 @@ ___
 source /opt/ros/humble/setup.bash
 source ros_ws/install/setup.bash
 
-python3 src/yolobot/yolobot_recognition/ros_recognition_yolo.py
+python3 ros_ws/src/yolobot/yolobot_recognition/ros_recognition_yolo.py
 
  
 
