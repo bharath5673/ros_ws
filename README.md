@@ -292,6 +292,57 @@ ros2 bag play 'ros_ws/src/test_turtle_bag/test_turtle_bag/rosbag2_2023_02_06-18_
 </div>
 @https://github.com/bharath5673/ros_ws/blob/main/src/test_turtle_bag/test_turtle_bag/rosbag.ipynb
 
+___
+___
+
+### 7. ROS2 yolobot
+
+```bash
+## prerequisites
+
+sudo apt install ros-humble-gazebo-ros
+sudo apt-get install ros-humble-gazebo-msgs
+sudo apt-get install ros-humble-gazebo-plugins
+
+pip install yolov5
+```
+___
+
+
+![Screenshot from 2023-01-28 17-31-40](https://user-images.githubusercontent.com/33729709/215265717-6c2092c0-4e0f-4cf3-bec8-51024dfb05bf.png)
+
+
+```bash
+
+### step for roslaunch
+source /opt/ros/humble/setup.bash
+source ros_ws/install/setup.bash
+
+ros2 launch yolobot yolobot_launch.py
+
+```
+
+___
+___
+
+
+![Screenshot from 2023-01-28 16-55-02](https://user-images.githubusercontent.com/33729709/215265729-31d9f9b0-79ff-453e-9941-c39312bd6aa7.png)
+
+
+ 
+```bash
+### on new terminal
+
+
+### step for yolobot detetcion 
+source /opt/ros/humble/setup.bash
+source ros_ws/install/setup.bash
+
+python3 src/yolobot/yolobot_recognition/ros_recognition_yolo.py
+
+ 
+
+```
 
 ___
 ___
