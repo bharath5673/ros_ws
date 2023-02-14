@@ -368,7 +368,7 @@ ___
 source /opt/ros/humble/setup.bash
 source ros_ws/install/setup.bash
 
-ros2 ros2 run test_imu imu_simple_pub_sub 
+ ros2 run test_imu simple_imu 
 
 ```
 
