@@ -392,9 +392,9 @@ now click on add create visualization By Topic /Imu/imu
 
 flash ur pico-W on Thonny with https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/pico_W/sketch1.py
 
-
+#### demo 1
 <img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_1.gif" width="1080"/> 
-
+#### demo 2
 <img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_2.gif" width="1080"/> 
 
 ```
