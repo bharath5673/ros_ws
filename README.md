@@ -348,6 +348,61 @@ ___
 ___
 
 
+### 8. PICO-W with MPU-6050 accelerometer and gyroscope module
+
+```bash
+## prerequisites
+
+sudo apt-get install ros-humble-imu-tools
+
+```
+___
+
+
+![Screenshot from 2023-02-14 13-58-54](https://user-images.githubusercontent.com/33729709/218681454-8f2bb823-0ba0-42af-9a7b-e0cda1cbf405.png)
+
+
+```bash
+
+### step for simple testing imu sensors with random data 
+source /opt/ros/humble/setup.bash
+source ros_ws/install/setup.bash
+
+ros2 ros2 run test_imu imu_simple_pub_sub 
+
+```
+
+ 
+```bash
+### on new terminal for rviz
+
+source ros_ws/install/setup.bash
+rviz2 
+
+now click on add create visualization By Topic /Imu/imu
+
+```
+ 
+```bash
+### on new terminal for rviz
+
+source ros_ws/install/setup.bash
+rviz2 
+
+now click on add create visualization By Topic /Imu/imu
+
+```
+
+
+Getting MPU-6050 Sensor Readings: Accelerometer, Gyroscope
+
+flash pico-W with Thonny
+
+read imu data from pico-W and visualize on rviz2
+
+___
+___
+
 ## Cite
 
 <details><summary> <b>Expand</b> </summary>
