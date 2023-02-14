@@ -1,0 +1,90 @@
+#! /usr/bin/env python3
+
+# sudo apt-get install ros-humble-imu-tools
+
+import requests
+from bs4 import BeautifulSoup
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import Imu
+import socket
+import time
+import random
+
+host = "192.168.100.10"
+port = 80
+def get_req():
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    client_socket.connect((host, port))
+    message = "GET / HTTP/1.1\r\n\r\n".encode()
+    client_socket.sendall(message)
+    response = client_socket.recv(4096)
+    client_socket.close()
+    # print(response.decode())
+    # print(type(response))
+    return response
+
+class ImuPublisher(Node):
+    def __init__(self):
+        super().__init__('imu_publisher')
+
+        self.topic_name = 'imu'
+        self.frame_id_ = 'map'
+
+        self.publisher_ = self.create_publisher(Imu, self.topic_name, 1000)
+        self.timer_ = self.create_timer(0.1, self.timer_callback)
+        self.imu_msg_ = Imu()
+
+    def timer_callback(self):
+        # Extract accelerometer and gyrometer values from the HTML page using BeautifulSoup
+        # response = requests.get('http://localhost:8000')
+        response = get_req()
+        # print(response)
+        soup = BeautifulSoup(response, 'html.parser')
+
+        accelerometer_values = soup.find('span', {'id': 'accelerometerValues'})
+        gyrometer_values = soup.find('span', {'id': 'gyrometerValues'})
+
+        if accelerometer_values is not None and gyrometer_values is not None:
+            accelerometer_values = accelerometer_values.text
+            gyrometer_values = gyrometer_values.text
+
+            # Convert the values to the appropriate format for the Imu message
+            # linear_acceleration
+            self.imu_msg_.linear_acceleration.x = float(accelerometer_values.split(',')[0].replace("[",""))
+            self.imu_msg_.linear_acceleration.y = float(accelerometer_values.split(',')[1])
+            self.imu_msg_.linear_acceleration.z = float(accelerometer_values.split(',')[2].replace("]",""))
+            # angular_velocity
+            self.imu_msg_.angular_velocity.x = float(gyrometer_values.split(',')[0].replace("[",""))
+            self.imu_msg_.angular_velocity.y = float(gyrometer_values.split(',')[1])
+            self.imu_msg_.angular_velocity.z = float(gyrometer_values.split(',')[2].replace("]",""))
+
+            self.imu_msg_.orientation.x = float(accelerometer_values.split(',')[0].replace("[",""))
+            self.imu_msg_.orientation.y = float(accelerometer_values.split(',')[1])
+            self.imu_msg_.orientation.z = float(accelerometer_values.split(',')[2].replace("]",""))
+            self.imu_msg_.orientation.w = float(1)
+
+            # self.imu_msg_.orientation.x = float(gyrometer_values.split(',')[0].replace("[",""))
+            # self.imu_msg_.orientation.y = float(gyrometer_values.split(',')[1])
+            # self.imu_msg_.orientation.z = float(gyrometer_values.split(',')[2].replace("]",""))
+            # self.imu_msg_.orientation.w = float(1)
+
+            # Publish the Imu message
+            timestamp = self.get_clock().now()
+            self.imu_msg_.header.stamp = timestamp.to_msg()
+            self.imu_msg_.header.frame_id = self.frame_id_
+            self.publisher_.publish(self.imu_msg_)
+            self.get_logger().info(f"Published IMU orientation: {self.imu_msg_.orientation}")
+            self.get_logger().info(f"Published IMU linear_acceleration: {self.imu_msg_.linear_acceleration}")
+            self.get_logger().info(f"Published IMU angular_velocity: {self.imu_msg_.angular_velocity}")
+
+
+def main(args=None):
+    rclpy.init()
+    node = ImuPublisher()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+    
+if __name__ == '__main__':
+    main()
