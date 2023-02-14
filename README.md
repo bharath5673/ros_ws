@@ -401,6 +401,9 @@ source ros_ws/install/setup.bash
 
 ros2 ros2 run test_imu picoW_mpu6050 
 
+```
+
+```
 
 ### on new terminal for rviz
 
