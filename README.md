@@ -394,6 +394,7 @@ flash ur pico-W on Thonny with https://github.com/bharath5673/ros_ws/blob/main/s
 
 #### demo 1
 <img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_1.gif" width="1080"/> 
+
 #### demo 2
 <img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_2.gif" width="1080"/> 
 
