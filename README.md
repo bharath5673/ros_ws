@@ -348,7 +348,7 @@ ___
 ___
 
 
-### 8. PICO-W with MPU-6050 accelerometer and gyroscope module
+### 8. PICO-W with MPU-6050 accelerometer and gyroscope module (EXCLUSIVE) <img src="https://media0.giphy.com/media/J19OSJKmqCyP7Mfjt1/giphy.gif" width="80" height="30" />
 
 ```bash
 ## prerequisites
