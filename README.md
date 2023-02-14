@@ -386,7 +386,7 @@ now click on add create visualization By Topic /Imu/imu
 
 
 
-#### Getting MPU-6050 Sensor Readings: Accelerometer, Gyroscope
+### Getting MPU-6050 Sensor Readings: Accelerometer, Gyroscope
 
 <img src="https://user-images.githubusercontent.com/33729709/218695413-da3b14da-0146-408d-b602-6f4d288ee7a6.jpg" height="500" width="1080"/> 
 
