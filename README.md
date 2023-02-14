@@ -404,7 +404,7 @@ flash ur pico-W on Thonny with https://github.com/bharath5673/ros_ws/blob/main/s
 source /opt/ros/humble/setup.bash
 source ros_ws/install/setup.bash
 
- ros2 run test_imu simple_imu 
+ros2 run test_imu picoW_mpu6050
 
 ```
 
