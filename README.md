@@ -386,7 +386,7 @@ now click on add create visualization By Topic /Imu/imu
 
 
 
-Getting MPU-6050 Sensor Readings: Accelerometer, Gyroscope
+#### Getting MPU-6050 Sensor Readings: Accelerometer, Gyroscope
 
 flash pico-W with Thonny
 
