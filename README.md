@@ -388,7 +388,9 @@ now click on add create visualization By Topic /Imu/imu
 
 #### Getting MPU-6050 Sensor Readings: Accelerometer, Gyroscope
 
-flash pico-W with Thonny
+<img src="https://user-images.githubusercontent.com/33729709/218695413-da3b14da-0146-408d-b602-6f4d288ee7a6.jpg" height="500" width="1080"/> 
+
+flash ur pico-W on Thonny with https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/pico_W/sketch1.py
 
 read imu data from pico-W and visualize on rviz2
 
