@@ -395,7 +395,7 @@ flash ur pico-W on Thonny with https://github.com/bharath5673/ros_ws/blob/main/s
 
 ```
 
-### step to read imu data from pico-W and visualize on rviz2
+### step to read imu MPU6050 data from pico-W and visualize on rviz2
 source /opt/ros/humble/setup.bash
 source ros_ws/install/setup.bash
 
