@@ -383,15 +383,7 @@ now click on add create visualization By Topic /Imu/imu
 
 ```
  
-```bash
-### on new terminal for rviz
 
-source ros_ws/install/setup.bash
-rviz2 
-
-now click on add create visualization By Topic /Imu/imu
-
-```
 
 
 Getting MPU-6050 Sensor Readings: Accelerometer, Gyroscope
