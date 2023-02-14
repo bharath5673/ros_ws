@@ -392,7 +392,22 @@ now click on add create visualization By Topic /Imu/imu
 
 flash ur pico-W on Thonny with https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/pico_W/sketch1.py
 
-read imu data from pico-W and visualize on rviz2
+
+```
+
+### step to read imu data from pico-W and visualize on rviz2
+source /opt/ros/humble/setup.bash
+source ros_ws/install/setup.bash
+
+ros2 ros2 run test_imu picoW_mpu6050 
+
+
+### on new terminal for rviz
+
+source ros_ws/install/setup.bash
+rviz2 
+
+```
 
 ___
 ___
