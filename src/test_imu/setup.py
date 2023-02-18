@@ -23,7 +23,8 @@ setup(
             'imu_publisher = test_imu.imu_publisher:main',
             'imu_subscriber = test_imu.imu_subscriberr:main',
             'simple_imu = test_imu.imu_simple_pub_sub:main',
-            'picoW_mpu6050 = test_imu.imu_MPU6050_picoW:main'
+            'picoW_mpu6050 = test_imu.imu_MPU6050_picoW:main',
+            'esp32_mpu6050 = test_imu.imu_MPU6050_esp32:main'
         ],
     },
 )
