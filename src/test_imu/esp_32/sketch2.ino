@@ -9,7 +9,7 @@
 const char* ssid = "get of my LAN";
 const char* password = "P@$$w0rD";
 //onboard led
-const int onboardLED = 5;  
+const int onboardLED = 2;  
 
 
 // Variables to store acceleration and gyroscope data
