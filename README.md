@@ -418,7 +418,39 @@ rviz2
 ```
 
 ___
+
+flash ur ESP32 on Arduino with https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/esp_32/sketch1.py
+
+#### demo 3
+<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_3.gif" width="1080"/> 
+
+#### demo 4
+<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_4.gif" width="1080"/> 
+
+```
+
+### step to read imu MPU6050 data from pico-W and visualize on rviz2
+source /opt/ros/humble/setup.bash
+source ros_ws/install/setup.bash
+
+ros2 run test_imu esp32_mpu6050
+
+```
+
+```
+
+### on new terminal for rviz
+
+source ros_ws/install/setup.bash
+rviz2 
+
+```
+
+
 ___
+___
+
+
 
 ## Cite
 
