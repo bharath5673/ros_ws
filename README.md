@@ -419,7 +419,7 @@ rviz2
 
 ___
 
-flash ur ESP32 on Arduino with https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/esp_32/sketch1.py
+flash ur ESP32 on Arduino with https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/esp_32/sketch2.ino
 
 #### demo 3
 <img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_3.gif" width="1080"/> 
