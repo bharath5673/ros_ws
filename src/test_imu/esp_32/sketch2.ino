@@ -9,7 +9,7 @@
 const char* ssid = "get of my LAN";
 const char* password = "P@$$w0rD";
 //onboard led
-const int onboardLED = 2;  
+const int onboardLED = 5;  
 
 
 // Variables to store acceleration and gyroscope data
@@ -148,11 +148,10 @@ void loop() {
 
 // Handler for the root URL
 void handleRoot() {
-  String html = "<html><head><meta http-equiv='refresh' content='0.2'></head><body><h1 style='text-align:center;'>ROS2 Robot Control</h1>";
+  String html = "<html><head><meta http-equiv='refresh' content='0.2'></head><body><h1 style='text-align:center;'></h1>";
   html += "<table style='margin:auto;'>";
-  html += "<tr><td colspan='3' style='text-align:center;'><form method='POST' action='/forward'><button type='submit' style='height:120px; width:120px;'>Forward</button></form></td></tr>";
-  html += "<tr><td colspan='3' style='text-align:center;'>Accelerometer Values: <span id='accelerometerValues'>[" + String(ax) + "," + String(ay) + "," + String(az) + "]</span></td></tr>";
-  html += "<tr><td colspan='3' style='text-align:center;'>Gyrometer Values: <span id='gyrometerValues'>[" + String(gx) + "," + String(gy) + "," + String(gz) + "]</span></td></tr>";
+  html += "<tr><td colspan='3' style='text-align:center;'><b>Accelerometer Values: <span id='accelerometerValues'>[" + String(ax) + "," + String(ay) + "," + String(az) + "]</span></b></td></tr>";
+  html += "<tr><td colspan='3' style='text-align:center;'><b>Gyrometer Values: <span id='gyrometerValues'>[" + String(gx) + "," + String(gy) + "," + String(gz) + "]</span></td></b></tr>";
   html += "</table>";
   html += "</body></html>";
   server.send(200, "text/html", html);
