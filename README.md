@@ -419,6 +419,13 @@ rviz2
 
 ___
 
+### Getting MPU-6050 Sensor Readings: Accelerometer, Gyroscope
+
+
+
+<img src="https://user-images.githubusercontent.com/33729709/219880851-6e0a15e8-b262-4277-b370-884f947bbe6b.jpg" height="500" width="1080"/> 
+
+
 flash ur ESP32 on Arduino with https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/esp_32/sketch2.ino
 
 #### demo 3
