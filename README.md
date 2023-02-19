@@ -398,7 +398,7 @@ flash ur pico-W on Thonny with https://github.com/bharath5673/ros_ws/blob/main/s
 #### demo 2
 
 
-<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_2.gif" width="500"/>  <img src="https://user-images.githubusercontent.com/33729709/219925577-8a1a6e71-d6aa-48b0-9aef-525f6b0bde97.jpg" width="400"/> 
+<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_2.gif" width="400"/>  <img src="https://user-images.githubusercontent.com/33729709/219925577-8a1a6e71-d6aa-48b0-9aef-525f6b0bde97.jpg" width="400"/> 
 
 ```
 
@@ -438,7 +438,7 @@ flash ur ESP32 on Arduino with https://github.com/bharath5673/ros_ws/blob/main/s
 
 
 
-<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_4.gif" width="500"/>  <img src="https://user-images.githubusercontent.com/33729709/219925024-95400b18-11f4-4e19-a517-a8739cf93745.png" width="450"/> 
+<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_4.gif" width=400"/>  <img src="https://user-images.githubusercontent.com/33729709/219925024-95400b18-11f4-4e19-a517-a8739cf93745.png" width="400"/> 
 
 ```
 
