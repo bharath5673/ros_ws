@@ -438,7 +438,7 @@ flash ur ESP32 on Arduino with https://github.com/bharath5673/ros_ws/blob/main/s
 
 
 
-<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_4.gif" width=400"/>  <img src="https://user-images.githubusercontent.com/33729709/219925024-95400b18-11f4-4e19-a517-a8739cf93745.png" width="400"/> 
+<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_4.gif" width="400"/>  <img src="https://user-images.githubusercontent.com/33729709/219925024-95400b18-11f4-4e19-a517-a8739cf93745.png" width="400"/> 
 
 ```
 
