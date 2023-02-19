@@ -395,7 +395,7 @@ flash ur pico-W on Thonny with https://github.com/bharath5673/ros_ws/blob/main/s
 #### demo 1
 <img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_1.gif" width="1080"/> 
 
-#### Note : please ignore those other components on the board showing in the below demo.. my circuit was buitd for different use case.. u can connect ur pico-w and mpu6050 as shown in this below simple circuit diagram
+#### Note : please ignore those other components on the board showing in the below demo.. my circuit was built for different use case.. u can connect ur pico-w and mpu6050 as shown in this below simple circuit diagram
 
 #### demo 2
 
@@ -435,7 +435,7 @@ flash ur ESP32 on Arduino with https://github.com/bharath5673/ros_ws/blob/main/s
 #### demo 3
 <img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_3.gif" width="1080"/> 
 
-#### Note : please ignore those other components on the board showing in the below demo.. my circuit was buitd for different use case.. u can connect ur esp-32 and mpu6050 as shown in this below simple circuit diagram
+#### Note : please ignore those other components on the board showing in the below demo.. my circuit was built for different use case.. u can connect ur esp-32 and mpu6050 as shown in this below simple circuit diagram
 
 #### demo 4
 
