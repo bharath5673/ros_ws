@@ -468,7 +468,7 @@ ___
 ___
 
 ![complete-collection-of-opencv-ai-kits-](https://user-images.githubusercontent.com/33729709/221369393-137819b7-5cff-4e4f-a8b2-421559267e50.jpg)
-
+###### The OAK (OpenCV AI Kit) is a series of edge computing devices developed by Luxonis, designed to provide high-performance AI inference for computer vision applications in a compact and low-power form factor. a dedicated AI accelerator chip that provides high-speed neural network inference for running complex AI models on-device. With the OAK devices, users can deploy AI models for tasks such as object detection, facial recognition, and gesture recognition and  making it ideal for edge AI applications.
 ___
 #### OAK-1 demo
 ___
