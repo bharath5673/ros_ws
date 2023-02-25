@@ -469,6 +469,27 @@ ___
 
 ![complete-collection-of-opencv-ai-kits-](https://user-images.githubusercontent.com/33729709/221369393-137819b7-5cff-4e4f-a8b2-421559267e50.jpg)
 ###### The OAK (OpenCV AI Kit) is a series of edge computing devices developed by Luxonis, designed to provide high-performance AI inference for computer vision applications in a compact and low-power form factor. a dedicated AI accelerator chip that provides high-speed neural network inference for running complex AI models on-device. With the OAK devices, users can deploy AI models for tasks such as object detection, facial recognition, and gesture recognition and  making it ideal for edge AI applications.
+
+### DepthAI
+###### DepthAI is a Spatial AI platform API that supports OAK devices
+
+```bash
+
+### steps for installing Death-AI
+
+python3 -m pip install depthai --upgrade
+
+```
+
+```bash
+
+### set USB rules to recognise and access oak devices to grant permission 
+
+echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="03e7", MODE="0666"' | sudo tee /etc/udev/rules.d/80-movidius.rules
+sudo udevadm control --reload-rules && sudo udevadm trigger
+
+```
+
 ___
 #### OAK-1 demo
 ___
