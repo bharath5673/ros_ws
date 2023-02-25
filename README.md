@@ -461,9 +461,78 @@ rviz2
 ```
 
 
+
 ___
+___
+## 9. OpenCV AI Kit
 ___
 
+![complete-collection-of-opencv-ai-kits-](https://user-images.githubusercontent.com/33729709/221369393-137819b7-5cff-4e4f-a8b2-421559267e50.jpg)
+
+___
+#### OAK-1 demo
+___
+
+<div align="center">
+<p>
+<img src="https://user-images.githubusercontent.com/33729709/221369501-07e9077c-55db-429e-a8b3-8a49b4383b3b.jpg" height="200" width="200"/>  <img src="https://user-images.githubusercontent.com/33729709/221369587-c7e3ed81-0315-4ea3-800b-adb7d6a00afb.png" width="500"/> 
+</p>
+<br>
+</div>
+
+
+```bash
+
+### steps for running yolo on oak-1 publisher
+
+source ros_ws/install/setup.bash
+ros2 run test_OAK OAK_1_publisher 
+
+```
+
+
+```
+### on new terminal for subscriber
+
+source ros_ws/install/setup.bash
+ros2 run test_OAK OAK_subscriber 
+
+```
+
+
+___
+#### OAK-D demo
+___
+
+<div align="center">
+<p>
+<img src="https://user-images.githubusercontent.com/33729709/221370009-32ce1e85-7e0d-446f-a7a7-d53eacee8137.jpg" height="200" width="200"/>  <img src="https://user-images.githubusercontent.com/33729709/221370002-28ca5340-7a2a-47b6-94ef-c580b7b19710.png" width="500"/> 
+</p>
+<br>
+</div>
+
+
+```bash
+
+### steps for running yolo on oak-1 publisher
+
+source ros_ws/install/setup.bash
+ros2 run test_OAK OAK_D_publisher 
+
+```
+
+
+```
+### on new terminal for subscriber
+
+source ros_ws/install/setup.bash
+ros2 run test_OAK OAK_subscriber 
+
+```
+
+
+___
+___
 
 
 ## Cite
