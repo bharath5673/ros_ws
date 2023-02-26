@@ -535,7 +535,7 @@ ___
 
 ```bash
 
-### steps for running yolo on oak-1 publisher
+### steps for running yolo on oak-D publisher
 
 source ros_ws/install/setup.bash
 ros2 run test_OAK OAK_D_publisher 
