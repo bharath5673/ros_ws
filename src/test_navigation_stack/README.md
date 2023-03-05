@@ -24,7 +24,7 @@ ___
 
 ### steps for creating maps
 
-## launch turtlebot3 on gazebo
+## launch turtlebot3 on gazebo 
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
 
 ## now start turtlebot3_cartographer to map env
@@ -36,6 +36,10 @@ ros2 run turtlebot3_teleop teleop_keyboard
 ## after SLAM allover save maps
 mkdir turtlebot3_maps
 ros2 run nav2_map_server map_saver_cli -f turtlebot3_maps/map_test_1
+
+```
+
+```
 
 ## check weather maps saved
 ls turtlebot3_maps
