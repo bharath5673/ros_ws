@@ -11,10 +11,8 @@ ___
 sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup ros-humble-turtlebot3* ros-humble-turtlebot3-simulations 
 sudo apt install ros-humble-rmw-cyclonedds-cpp
 
-sudo nano ~/.bashrc
-echo 'export TURTLEBOT3_MODEL=waffle' >> ~/.bashrc
-echo 'export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp' >> ~/.bashrc
-
+sudo sh -c "echo 'export TURTLEBOT3_MODEL=waffle' >> ~/.bashrc"
+sudo sh -c "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp' >> ~/.bashrc"
 ```
 ___
 
