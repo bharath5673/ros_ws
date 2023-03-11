@@ -1,5 +1,22 @@
 # ROS2 (As Ease As Possible)
 
+###### Goal of the project is to build computer vision projects easier on ROS
+
+#### Computer vision is an important application of ROS2, as it allows robots and other autonomous systems to understand and interact with their environment. Here are some common topics related to computer vision in ROS2:
+
+**Image processing:** Process images from cameras and other sensors. These libraries enable developers to implement various computer vision algorithms, such as object detection, segmentation, and tracking.
+
+**Depth sensing:** In addition to cameras, many robots use depth sensors, such as LIDAR or depth cameras, to perceive their environment. ROS2 provides several libraries, such as depth_image_proc and pointcloud2, to process and analyze depth data.
+
+**Perception algorithms:** Various perception algorithms that can be used for object detection, tracking, and recognition.
+
+**Integration with other ROS2 components:** Computer vision algorithms in ROS2 are often used in conjunction with other ROS2 components, such as navigation, manipulation, and planning. ROS2 provides various communication and messaging protocols, such as ROS2 Topics and ROS2 Services, that enable developers to integrate these components and create complex systems.
+
+
+___
+___
+
+
 ##### tested on
 ```bash
 ## ros distro
