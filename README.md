@@ -203,7 +203,7 @@ ___
 
 ## install dependancies
 python3 -m pip install -r src/self_driving_car_pkg/requirements.txt
-
+sudo apt-get install ros-humble-gazebo-msgs
 
 
 ## once build you can run the simulation e.g [ ros2 launch (package_name) world(launch file) ] 
