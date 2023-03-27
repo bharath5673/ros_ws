@@ -1,4 +1,8 @@
+<br>
+<img src="https://media0.giphy.com/media/J19OSJKmqCyP7Mfjt1/giphy.gif" width="80" height="30" /> 
+
 # ROS2 Navigation Stack
+
 ___
 ___
 
@@ -82,16 +86,21 @@ ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_true:=True map:
 
 #### Initialize pose
 reinit robot location on rtab looking into robot orientations on gazebo sim to sync env
+![output3](https://github.com/bharath5673/ros_ws/blob/main/src/navigation_tb3/output1.gif)
 
 
 #### setting a goal 
 set waypoint to navigate robot
+![output3](https://github.com/bharath5673/ros_ws/blob/main/src/navigation_tb3/output2.gif)  
+
 
 #### setting multi goals
 set multiwaypoints to nav through multiple locations
+![output3](https://github.com/bharath5673/ros_ws/blob/main/src/navigation_tb3/output3.gif)   
 
 
 ##  Commander API
 The Commander API provides a set of functions that enable the robot to perform navigation tasks such as setting the robot's initial pose, setting a goal position, and canceling a navigation task in one single run ;)
+![output3](https://github.com/bharath5673/ros_ws/blob/main/src/navigation_tb3/output4.gif) 
 
 
