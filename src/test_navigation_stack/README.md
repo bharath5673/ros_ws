@@ -2,6 +2,7 @@
 ___
 ___
 
+## Creating Maps
 
 ##### step 1
 
@@ -12,7 +13,7 @@ sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup ros-humble-turtl
 sudo apt install ros-humble-rmw-cyclonedds-cpp
 
 sudo sh -c "echo 'export TURTLEBOT3_MODEL=waffle' >> ~/.bashrc"
-sudo sh -c "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp' >> ~/.bashrc"
+sudo sh -c "echo 'export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp' >> ~/.bashrc"
 ```
 ___
 
@@ -60,4 +61,37 @@ select and play according..
 
 ___
 ___
+
+
+## WayPoint Navigation
+
+Waypoint navigation in ROS2 refers to the process of defining a set of pre-defined locations or "waypoints" for a robot to navigate through in a specific sequence. This involves setting up a list of goals for the robot to reach and then using a navigation algorithm to plan the robot's path through the waypoints uisng maps.
+
+ 
+##### step 1 
+```bash
+## launch turtlebot3 on gazebo 
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+```
+
+##### step 2 
+```bash
+## now launch gazebo rtab using saved map on new tab
+ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_true:=True map:='turtlebot3_maps/map_test_1.yaml'  
+```
+
+#### Initialize pose
+reinit robot location on rtab looking into robot orientations on gazebo sim to sync env
+
+
+#### setting a goal 
+set waypoint to navigate robot
+
+#### setting multi goals
+set multiwaypoints to nav through multiple locations
+
+
+##  Commander API
+The Commander API provides a set of functions that enable the robot to perform navigation tasks such as setting the robot's initial pose, setting a goal position, and canceling a navigation task in one single run ;)
+
 
