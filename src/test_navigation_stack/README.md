@@ -6,7 +6,7 @@
 ___
 ___
 
-## Creating Maps
+## 1. Creating Maps
 
 ##### step 1
 
@@ -67,7 +67,7 @@ ___
 ___
 
 
-## WayPoint Navigation
+## 2. WayPoint Navigation
 
 Waypoint navigation in ROS2 refers to the process of defining a set of pre-defined locations or "waypoints" for a robot to navigate through in a specific sequence. This involves setting up a list of goals for the robot to reach and then using a navigation algorithm to plan the robot's path through the waypoints uisng maps.
 
@@ -97,9 +97,12 @@ set waypoint to navigate robot
 #### setting multi goals
 set multiwaypoints to nav through multiple locations
 ![output3](https://github.com/bharath5673/ros_ws/blob/main/src/navigation_tb3/output3.gif)   
+___
+___
 
 
-##  Commander API
+
+##  3. Commander API
 The Commander API provides a set of functions that enable the robot to perform navigation tasks such as setting the robot's initial pose, setting a goal position, and canceling a navigation task in one single run ;)
 ![output3](https://github.com/bharath5673/ros_ws/blob/main/src/navigation_tb3/output4.gif) 
 
