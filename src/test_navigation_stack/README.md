@@ -92,4 +92,6 @@ set multiwaypoints to nav through multiple locations
 
 
 ##  Commander API
-The Commander API provides a set of functions that enable the robot to perform navigation tasks such as setting the robot's initial pose, setting a goal position, and canceling a navigation task
+The Commander API provides a set of functions that enable the robot to perform navigation tasks such as setting the robot's initial pose, setting a goal position, and canceling a navigation task in one single run ;)
+
+
