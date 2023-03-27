@@ -571,6 +571,21 @@ ros2 run test_OAK OAK_subscriber
 ```
 
 
+<br>
+<img src="https://media0.giphy.com/media/J19OSJKmqCyP7Mfjt1/giphy.gif" width="80" height="30" /> 
+
+
+___
+___
+## 10. ROS2 Navigation Stack
+___
+Simple and easy project, about building a custom robot maps and that can navigate autonomously using the ROS2 Navigation Stack.
+
+![output3](https://github.com/bharath5673/ros_ws/blob/main/src/navigation_tb3/output2.gif) 
+
+@https://github.com/bharath5673/ros_ws/tree/main/src/navigation_tb3
+
+
 ___
 ___
 
@@ -589,6 +604,7 @@ ___
 * [https://github.com/raspberrypi](https://github.com/raspberrypi](https://github.com/raspberrypi)
 * [https://github.com/NVIDIA](https://github.com/NVIDIA)
 * [https://github.com/opencv/opencv](https://github.com/opencv/opencv)
+* [https://roboticsbackend.com/](https://roboticsbackend.com)
   
   
 </details>
