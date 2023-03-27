@@ -571,13 +571,11 @@ ros2 run test_OAK OAK_subscriber
 ```
 
 
-<br>
-<img src="https://media0.giphy.com/media/J19OSJKmqCyP7Mfjt1/giphy.gif" width="80" height="30" /> 
-
 
 ___
 ___
-## 10. ROS2 Navigation Stack
+## 10. ROS2 Navigation Stack  <img src="https://media0.giphy.com/media/J19OSJKmqCyP7Mfjt1/giphy.gif" width="80" height="30" /> 
+
 ___
 Simple and easy project, about building a custom robot maps and that can navigate autonomously using the ROS2 Navigation Stack.
 
