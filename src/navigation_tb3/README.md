@@ -52,8 +52,9 @@ ros2 run nav2_map_server map_saver_cli -f turtlebot3_maps/map_test_1
 ```
 
 ## check weather maps saved
+
 ls turtlebot3_maps
-map_test_1.pgm  map_test_1.yaml
+<map_test_1.pgm>  <map_test_1.yaml>
 
 
 ```
@@ -64,6 +65,7 @@ ___
 ```bash
 
 ### steps for loading maps and navigate turtlebot
+source ros_ws/install/setup.bash
 ros2 launch turtlebot3_navigation2 navigation2.launch.py map:=turtlebot3_maps/map_test_1.yaml 
 
 
