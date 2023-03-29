@@ -28,16 +28,23 @@ ___
 ### steps for creating maps
 
 ## launch turtlebot3 on gazebo 
+source ros_ws/install/setup.bash
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
 
+
 ## now start turtlebot3_cartographer to map env
+source ros_ws/install/setup.bash
 ros2 launch turtlebot3_cartographer cartographer.launch.py 
 
+
 ## control robot via telop keys
+source ros_ws/install/setup.bash
 ros2 run turtlebot3_teleop teleop_keyboard 
+
 
 ## after SLAM allover save maps
 mkdir turtlebot3_maps
+source ros_ws/install/setup.bash
 ros2 run nav2_map_server map_saver_cli -f turtlebot3_maps/map_test_1
 
 ```
@@ -74,13 +81,15 @@ Waypoint navigation in ROS2 refers to the process of defining a set of pre-defin
  
 ##### step 1 
 ```bash
-## launch turtlebot3 on gazebo 
+## launch turtlebot3 on gazebo
+source ros_ws/install/setup.bash
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
 ```
 
 ##### step 2 
 ```bash
 ## now launch gazebo rtab using saved map on new tab
+source ros_ws/install/setup.bash
 ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_true:=True map:='turtlebot3_maps/map_test_1.yaml'  
 ```
 
@@ -106,4 +115,23 @@ ___
 The Commander API provides a set of functions that enable the robot to perform navigation tasks such as setting the robot's initial pose, setting a goal position, and canceling a navigation task in one single run ;)
 ![output3](https://github.com/bharath5673/ros_ws/blob/main/src/navigation_tb3/output4.gif) 
 
+##### step 1 
+```bash
+## launch turtlebot3 on gazebo 
+source ros_ws/install/setup.bash
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+```
 
+##### step 2 
+```bash
+## now launch gazebo rtab using saved map on new tab
+source ros_ws/install/setup.bash
+ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_true:=True map:='turtlebot3_maps/map_test_1.yaml'  
+```
+
+##### step 3 
+```bash
+## cmd or nav through code
+source ros_ws/install/setup.bash
+ros2 run navigation_tb3 single_goal_nav.py 
+```
