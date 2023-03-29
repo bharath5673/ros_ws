@@ -208,6 +208,10 @@ sudo apt-get install ros-humble-gazebo-msgs
 sudo apt-get install ros-humble-gazebo-plugins
 
 
+## copy models to gazebo env
+cp -r ros_ws/src/self_driving_car_pkg/models/* /home/bharath/.gazebo/models
+
+
 ## once build you can run the simulation e.g [ ros2 launch (package_name) world(launch file) ] 
 
 source ros_ws/install/setup.bash
@@ -324,6 +328,11 @@ sudo apt-get install ros-humble-gazebo-msgs
 sudo apt-get install ros-humble-gazebo-plugins
 
 pip install yolov5
+
+
+## copy models to gazebo env
+cp -r ros_ws/src/yolobot/models/* /home/bharath/.gazebo/models
+
 ```
 ___
 
