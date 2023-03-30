@@ -13,7 +13,6 @@
 **Integration with other ROS2 components:** Computer vision algorithms in ROS2 are often used in conjunction with other ROS2 components, such as navigation, manipulation, and planning. ROS2 provides various communication and messaging protocols, such as ROS2 Topics and ROS2 Services, that enable developers to integrate these components and create complex systems.
 
 
-
 ___
 ___
 
