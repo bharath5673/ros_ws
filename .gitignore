@@ -3,3 +3,4 @@ install/*
 log/*
 yolov*
 ros_ws/src/test_turtle_bag/test_turtle_bag/rosbag2_*
+.vscode
