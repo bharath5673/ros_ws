@@ -13,6 +13,7 @@
 **Integration with other ROS2 components:** Computer vision algorithms in ROS2 are often used in conjunction with other ROS2 components, such as navigation, manipulation, and planning. ROS2 provides various communication and messaging protocols, such as ROS2 Topics and ROS2 Services, that enable developers to integrate these components and create complex systems.
 
 
+
 ___
 ___
 
@@ -55,7 +56,7 @@ cd ..
 ___
 ___
 
-## 1. turtlebot 
+## 1. turtlebot
 
 
 ![Screenshot from 2023-01-27 14-14-57](https://user-images.githubusercontent.com/33729709/215048122-d9a7d4a3-f06e-495d-aa2d-6555d943df6c.png)
@@ -64,13 +65,13 @@ ___
 
 ### steps for turtleot
 source ros_ws/install/setup.bash
-ros2 run turtlesim turtlesim_node & ros2 run my_robot_controller turtle_controller 
+ros2 run turtlesim turtlesim_node & ros2 run my_robot_controller turtle_controller
 
 ```
 
 ___
 ___
-## 2. opencv-python 
+## 2. opencv-python
 ___
 ![Screenshot from 2023-01-27 14-22-57](https://user-images.githubusercontent.com/33729709/215048416-1a3c2c45-ebf2-4578-b7c6-40b98e713b4b.png)
 
@@ -87,7 +88,7 @@ ros2 run test_opencv run_test
 
 ___
 ___
-## 3. mediapipe 
+## 3. mediapipe
 ___
 ![ai-mediapipe-holistic](https://user-images.githubusercontent.com/33729709/215050919-cda2768e-d7bb-485b-b701-aeb61c51b50d.jpg)
 
@@ -99,12 +100,12 @@ pip install mediapipe
 
 <div align="center">
 <p>
-<img src="https://user-images.githubusercontent.com/33729709/215048866-4bd22c58-7012-43d0-ab7f-ece3d95a66a3.png" width="400"/> 
+<img src="https://user-images.githubusercontent.com/33729709/215048866-4bd22c58-7012-43d0-ab7f-ece3d95a66a3.png" width="400"/>
 
 
 
 
-<img src="https://user-images.githubusercontent.com/33729709/215048966-6b6b2aaa-4785-43e6-9e5e-b10ef4b59ded.png" width="400"/> 
+<img src="https://user-images.githubusercontent.com/33729709/215048966-6b6b2aaa-4785-43e6-9e5e-b10ef4b59ded.png" width="400"/>
 </p>
 <br>
 </div>
@@ -114,7 +115,7 @@ pip install mediapipe
 ### steps for facemesh
 
 source ros_ws/install/setup.bash
-ros2 run test_mediapipe facemesh_demo 
+ros2 run test_mediapipe facemesh_demo
 
 ```
 ```bash
@@ -122,13 +123,13 @@ ros2 run test_mediapipe facemesh_demo
 ### steps for pose
 
 source ros_ws/install/setup.bash
-ros2 run test_mediapipe pose_demo 
+ros2 run test_mediapipe pose_demo
 ```
 
 
 <div align="center">
 <p>
-<img src="https://user-images.githubusercontent.com/33729709/215049008-0c6938e7-0247-4921-b008-28402545af4e.png" width="400"/>  <img src="https://user-images.githubusercontent.com/33729709/215049083-a7eea250-d0c9-44e5-a4e7-46d899390b6f.png" width="400"/> 
+<img src="https://user-images.githubusercontent.com/33729709/215049008-0c6938e7-0247-4921-b008-28402545af4e.png" width="400"/>  <img src="https://user-images.githubusercontent.com/33729709/215049083-a7eea250-d0c9-44e5-a4e7-46d899390b6f.png" width="400"/>
 </p>
 <br>
 </div>
@@ -138,7 +139,7 @@ ros2 run test_mediapipe pose_demo
 ### steps for hands
 
 source ros_ws/install/setup.bash
-ros2 run test_mediapipe hands_demo 
+ros2 run test_mediapipe hands_demo
 ```
 
 ```bash
@@ -146,7 +147,7 @@ ros2 run test_mediapipe hands_demo
 ### steps for holistic
 
 source ros_ws/install/setup.bash
-ros2 run test_mediapipe holistic_demo 
+ros2 run test_mediapipe holistic_demo
 ```
 
 ___
@@ -161,7 +162,7 @@ pip install yolov5
 
 <div align="center">
 <p>
-<img src="https://user-images.githubusercontent.com/33729709/215049111-5b0f4626-9280-4d2f-958a-235ec214ace4.png" width="400"/>  <img src="https://user-images.githubusercontent.com/33729709/215049111-5b0f4626-9280-4d2f-958a-235ec214ace4.png" width="400"/> 
+<img src="https://user-images.githubusercontent.com/33729709/215049111-5b0f4626-9280-4d2f-958a-235ec214ace4.png" width="400"/>  <img src="https://user-images.githubusercontent.com/33729709/215049111-5b0f4626-9280-4d2f-958a-235ec214ace4.png" width="400"/>
 </p>
 <br>
 </div>
@@ -172,7 +173,7 @@ pip install yolov5
 ### steps for yolov5n
 
 source ros_ws/install/setup.bash
-ros2 run test_yolov5 yolov5n_demo 
+ros2 run test_yolov5 yolov5n_demo
 ```
 
 ```bash
@@ -180,18 +181,18 @@ ros2 run test_yolov5 yolov5n_demo
 ### steps for yolov5s
 
 source ros_ws/install/setup.bash
-ros2 run test_yolov5 yolov5s_demo 
+ros2 run test_yolov5 yolov5s_demo
 ```
 
 
 ___
 ___
-### 5.  Self-Driving-Car  
+### 5.  Self-Driving-Car
 ___
 
 <div align="center">
 <p>
-<img src="https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV/blob/main/Images_videos/the_car.gif" width="400"/>  <img src="https://user-images.githubusercontent.com/33729709/216042261-ceb356c6-3e07-49d7-817e-ec28a41ed811.png" width="400"/> 
+<img src="https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV/blob/main/Images_videos/the_car.gif" width="400"/>  <img src="https://user-images.githubusercontent.com/33729709/216042261-ceb356c6-3e07-49d7-817e-ec28a41ed811.png" width="400"/>
 </p>
 <br>
 </div>
@@ -212,7 +213,7 @@ sudo apt-get install ros-humble-gazebo-plugins
 cp -r ros_ws/src/self_driving_car_pkg/models/* /home/bharath/.gazebo/models
 
 
-## once build you can run the simulation e.g [ ros2 launch (package_name) world(launch file) ] 
+## once build you can run the simulation e.g [ ros2 launch (package_name) world(launch file) ]
 
 source ros_ws/install/setup.bash
 source /opt/ros/humble/setup.bash
@@ -231,7 +232,7 @@ ros2 run self_driving_car_pkg computer_vision_node
 
 <div align="center">
 <p>
-<img src="https://user-images.githubusercontent.com/33729709/216042810-cdb48e39-8aa4-4201-b8be-b77b8c51d7d7.png" width="400"/>  <img src="https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV/raw/main/Images_videos/Sat_Nav/1_localization.gif" width="400"/> 
+<img src="https://user-images.githubusercontent.com/33729709/216042810-cdb48e39-8aa4-4201-b8be-b77b8c51d7d7.png" width="400"/>  <img src="https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV/raw/main/Images_videos/Sat_Nav/1_localization.gif" width="400"/>
 </p>
 <br>
 </div>
@@ -265,7 +266,7 @@ for detailed explainations and tutorilas @ https://github.com/noshluk2/ROS2-Self
 
 ___
 ___
-### 6.  rosbag and dataFrame  
+### 6.  rosbag and dataFrame
 ___
 
 ![Screenshot from 2023-02-06 19-22-51](https://user-images.githubusercontent.com/33729709/216990025-51b69fb4-8097-4e61-9cda-b770822df93a.png)
@@ -276,10 +277,10 @@ ___
 ### steps for rosbag turtle vel cmds
 
 source ros_ws/install/setup.bash
-ros2 run turtlesim turtlesim_node &  ros2 run test_turtle_bag turtlebot_for_rosbag 
+ros2 run turtlesim turtlesim_node &  ros2 run test_turtle_bag turtlebot_for_rosbag
 
 
-### steps to control turtlebot 
+### steps to control turtlebot
 
 source ros_ws/install/setup.bash
 ros2 run turtlesim turtle_teleop_key
@@ -294,10 +295,10 @@ ros2 run turtlesim turtle_teleop_key
 ### open turtlebot
 
 source ros_ws/install/setup.bash
-ros2 run turtlesim turtlesim_node 
+ros2 run turtlesim turtlesim_node
 
 
-### steps to rosbag play 
+### steps to rosbag play
 
 source ros_ws/install/setup.bash
 ros2 bag play 'ros_ws/src/test_turtle_bag/test_turtle_bag/rosbag2_2023_02_06-18_46_50/rosbag2_2023_02_06-18_46_50_0.db3' -d 0.5
@@ -309,7 +310,7 @@ ros2 bag play 'ros_ws/src/test_turtle_bag/test_turtle_bag/rosbag2_2023_02_06-18_
 
 <div align="center">
 <p>
-<img src="https://user-images.githubusercontent.com/33729709/216971268-3275a8b1-b9bb-4710-8b66-7dad9c7eae91.png"/> 
+<img src="https://user-images.githubusercontent.com/33729709/216971268-3275a8b1-b9bb-4710-8b66-7dad9c7eae91.png"/>
 </p>
 <br>
 </div>
@@ -357,18 +358,18 @@ ___
 ![Screenshot from 2023-01-28 16-55-02](https://user-images.githubusercontent.com/33729709/215265729-31d9f9b0-79ff-453e-9941-c39312bd6aa7.png)
 
 
- 
+
 ```bash
 ### on new terminal
 
 
-### step for yolobot detetcion 
+### step for yolobot detetcion
 source /opt/ros/humble/setup.bash
 source ros_ws/install/setup.bash
 
 python3 ros_ws/src/yolobot/yolobot_recognition/ros_recognition_yolo.py
 
- 
+
 ```
 
 for detailed explainations and tutorilas @ https://www.youtube.com/watch?v=594Gmkdo-_s&t=610s
@@ -392,43 +393,43 @@ ___
 
 ```bash
 
-### step for simple testing imu sensors with random data 
+### step for simple testing imu sensors with random data
 source /opt/ros/humble/setup.bash
 source ros_ws/install/setup.bash
 
- ros2 run test_imu simple_imu 
+ ros2 run test_imu simple_imu
 
 ```
 
- 
+
 ```bash
 ### on new terminal for rviz
 
 source ros_ws/install/setup.bash
-rviz2 
+rviz2
 
 now click on add create visualization By Topic /Imu/imu
 
 ```
- 
+
 
 
 
 ### Getting MPU-6050 Sensor Readings: Accelerometer, Gyroscope
 
-<img src="https://user-images.githubusercontent.com/33729709/218695413-da3b14da-0146-408d-b602-6f4d288ee7a6.jpg" height="500" width="1080"/> 
+<img src="https://user-images.githubusercontent.com/33729709/218695413-da3b14da-0146-408d-b602-6f4d288ee7a6.jpg" height="500" width="1080"/>
 
 flash ur pico-W on Thonny with https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/pico_W/sketch1.py
 
 #### demo 1
-<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_1.gif" width="1080"/> 
+<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_1.gif" width="1080"/>
 
 #### Note : please ignore those other components on the board showing in the below demo.. my circuit was built for different use case.. u can connect ur pico-w and mpu6050 as shown in this below simple circuit diagram
 
 #### demo 2
 
 
-<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_2.gif" width="400"/>  <img src="https://user-images.githubusercontent.com/33729709/219925577-8a1a6e71-d6aa-48b0-9aef-525f6b0bde97.jpg" width="400"/> 
+<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_2.gif" width="400"/>  <img src="https://user-images.githubusercontent.com/33729709/219925577-8a1a6e71-d6aa-48b0-9aef-525f6b0bde97.jpg" width="400"/>
 
 ```
 
@@ -445,7 +446,7 @@ ros2 run test_imu picoW_mpu6050
 ### on new terminal for rviz
 
 source ros_ws/install/setup.bash
-rviz2 
+rviz2
 
 ```
 
@@ -455,19 +456,19 @@ ___
 
 
 
-<img src="https://user-images.githubusercontent.com/33729709/219880851-6e0a15e8-b262-4277-b370-884f947bbe6b.jpg" height="500" width="1080"/> 
+<img src="https://user-images.githubusercontent.com/33729709/219880851-6e0a15e8-b262-4277-b370-884f947bbe6b.jpg" height="500" width="1080"/>
 
 
 flash ur ESP32 on Arduino with https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/esp_32/sketch2.ino
 
 #### demo 3
-<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_3.gif" width="1080"/> 
+<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_3.gif" width="1080"/>
 
 #### Note : please ignore those other components on the board showing in the below demo.. my circuit was built for different use case.. u can connect ur esp-32 and mpu6050 as shown in this below simple circuit diagram
 
 #### demo 4
 
-<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_4.gif" width="400"/>  <img src="https://user-images.githubusercontent.com/33729709/219925024-95400b18-11f4-4e19-a517-a8739cf93745.png" width="400"/> 
+<img src="https://github.com/bharath5673/ros_ws/blob/main/src/test_imu/demo_4.gif" width="400"/>  <img src="https://user-images.githubusercontent.com/33729709/219925024-95400b18-11f4-4e19-a517-a8739cf93745.png" width="400"/>
 
 ```
 
@@ -484,7 +485,7 @@ ros2 run test_imu esp32_mpu6050
 ### on new terminal for rviz
 
 source ros_ws/install/setup.bash
-rviz2 
+rviz2
 
 ```
 
@@ -511,7 +512,7 @@ python3 -m pip install depthai --upgrade
 
 ```bash
 
-### set USB rules to recognise and access oak devices to grant permission 
+### set USB rules to recognise and access oak devices to grant permission
 
 echo 'SUBSYSTEM=="usb", ATTRS{idVendor}=="03e7", MODE="0666"' | sudo tee /etc/udev/rules.d/80-movidius.rules
 sudo udevadm control --reload-rules && sudo udevadm trigger
@@ -524,7 +525,7 @@ ___
 
 <div align="center">
 <p>
-<img src="https://user-images.githubusercontent.com/33729709/221369501-07e9077c-55db-429e-a8b3-8a49b4383b3b.jpg" height="200" width="200"/>  <img src="https://user-images.githubusercontent.com/33729709/221369587-c7e3ed81-0315-4ea3-800b-adb7d6a00afb.png" width="500"/> 
+<img src="https://user-images.githubusercontent.com/33729709/221369501-07e9077c-55db-429e-a8b3-8a49b4383b3b.jpg" height="200" width="200"/>  <img src="https://user-images.githubusercontent.com/33729709/221369587-c7e3ed81-0315-4ea3-800b-adb7d6a00afb.png" width="500"/>
 </p>
 <br>
 </div>
@@ -535,7 +536,7 @@ ___
 ### steps for running yolo on oak-1 publisher
 
 source ros_ws/install/setup.bash
-ros2 run test_OAK OAK_1_publisher 
+ros2 run test_OAK OAK_1_publisher
 
 ```
 
@@ -544,7 +545,7 @@ ros2 run test_OAK OAK_1_publisher
 ### on new terminal for subscriber
 
 source ros_ws/install/setup.bash
-ros2 run test_OAK OAK_subscriber 
+ros2 run test_OAK OAK_subscriber
 
 ```
 
@@ -555,7 +556,7 @@ ___
 
 <div align="center">
 <p>
-<img src="https://user-images.githubusercontent.com/33729709/221370009-32ce1e85-7e0d-446f-a7a7-d53eacee8137.jpg" height="200" width="200"/>  <img src="https://user-images.githubusercontent.com/33729709/221370002-28ca5340-7a2a-47b6-94ef-c580b7b19710.png" width="500"/> 
+<img src="https://user-images.githubusercontent.com/33729709/221370009-32ce1e85-7e0d-446f-a7a7-d53eacee8137.jpg" height="200" width="200"/>  <img src="https://user-images.githubusercontent.com/33729709/221370002-28ca5340-7a2a-47b6-94ef-c580b7b19710.png" width="500"/>
 </p>
 <br>
 </div>
@@ -566,7 +567,7 @@ ___
 ### steps for running yolo on oak-D publisher
 
 source ros_ws/install/setup.bash
-ros2 run test_OAK OAK_D_publisher 
+ros2 run test_OAK OAK_D_publisher
 
 ```
 
@@ -575,7 +576,7 @@ ros2 run test_OAK OAK_D_publisher
 ### on new terminal for subscriber
 
 source ros_ws/install/setup.bash
-ros2 run test_OAK OAK_subscriber 
+ros2 run test_OAK OAK_subscriber
 
 ```
 
@@ -583,12 +584,12 @@ ros2 run test_OAK OAK_subscriber
 
 ___
 ___
-## 10. ROS2 Navigation Stack  <img src="https://media0.giphy.com/media/J19OSJKmqCyP7Mfjt1/giphy.gif" width="80" height="30" /> 
+## 10. ROS2 Navigation Stack  <img src="https://media0.giphy.com/media/J19OSJKmqCyP7Mfjt1/giphy.gif" width="80" height="30" />
 
 ___
 Simple and easy project, about building a custom robot maps and that can navigate autonomously using the ROS2 Navigation Stack.
 
-![output3](https://github.com/bharath5673/ros_ws/blob/main/src/navigation_tb3/output2.gif) 
+![output3](https://github.com/bharath5673/ros_ws/blob/main/src/navigation_tb3/output2.gif)
 
 @https://github.com/bharath5673/ros_ws/tree/main/src/navigation_tb3
 
@@ -612,7 +613,7 @@ ___
 * [https://github.com/NVIDIA](https://github.com/NVIDIA)
 * [https://github.com/opencv/opencv](https://github.com/opencv/opencv)
 * [https://roboticsbackend.com/](https://roboticsbackend.com)
-  
-  
+
+
 </details>
 
